@@ -22,6 +22,7 @@ mat-list {
     flex: 4;
     flex-direction: column;
     display: flex;
+    
 }
 
 .list-item {
@@ -83,3 +84,4 @@ mat-chip-list {
 .whiteText{
     color:white;
 }
+

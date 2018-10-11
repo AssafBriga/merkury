@@ -17,7 +17,9 @@ export class MessageListItemComponent implements OnInit {
 
 
 
-  constructor() { }
+  constructor() {
+    
+   }
 
   ngOnInit() {
     this.opened = this.messageItem.opened;

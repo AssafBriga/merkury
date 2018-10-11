@@ -51,3 +51,7 @@ mat-list-item {
 .didntRead{
     background-color: #f4f5f8;
 }
+
+mat-list-item{
+    height: 90% !important;
+}

@@ -25,10 +25,8 @@ export class ListManagerComponent implements OnInit {
    didntReadMassages:number = 0
    checkForDidntReadMessages(messages){
     for(let i = 0;i<this.messages.length;i++){
-      console.log(i)
        if (!this.messages[i].opened){
          this.didntReadMassages++ ;
-         console.log("msg ddnt read "+this.didntReadMassages)
        }
     }
   }
