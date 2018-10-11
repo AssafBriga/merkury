@@ -1,0 +1,14 @@
+#salesChart{
+    flex:2;
+}
+
+#reportChart{
+    flex:3;
+}
+
+
+base-chart{
+    border:1px solid #e2e2e2;
+    background-color: white;
+    margin: 20px;
+}

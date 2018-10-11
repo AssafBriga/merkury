@@ -1,0 +1,27 @@
+.chartHeader{
+    flex:1;
+    display: flex;
+    padding: 0 20px 0 20px;
+}
+
+
+.chartBody{
+    flex:4;
+}
+
+h2{ 
+    display: inline-block;
+    color:#818087;
+}
+
+
+mat-form-field{
+    
+}
+
+
+
+.pushRight{
+    flex: 1 1 auto;
+  }
+  

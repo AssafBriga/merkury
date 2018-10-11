@@ -1,0 +1,98 @@
+.sidenav-container {
+    height: 100%;
+}
+
+.sidenav {
+    width: 200px;
+}
+
+.mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+}
+
+/* 
+@media (min-width: 768px){
+  .sidenav {
+    display: none;
+  }
+} */
+
+.hidden {
+    display: none;
+}
+
+.pushRight {
+    flex: 1 1 auto;
+}
+
+mat-sidenav {
+    background-color: #081b3a;
+}
+
+#header {
+    background-color: white;
+}
+
+#companyLogo {
+    background-color: #081b3a;
+}
+
+.RoundedButton {
+    background-color: #5584ff;
+    color: white;
+    background-color: 3573d6;
+    border-radius: 25px;
+    padding: 0 20px;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 11px;
+
+}
+
+.lightBlue {
+    color: #3771d6;
+}
+
+.dark-border-bottom {
+    border-bottom: 1px solid #03132d;
+}
+
+.darkBlue {
+    color: #081b3a;
+}
+
+.white {
+    color: white;
+}
+
+.margin10 {
+    margin: 10px;
+}
+
+.margin-left10 {
+    margin-left: 10px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.left-dark-border {
+    border-left: 6px solid #081b3a;
+}
+
+.selected-list-item {
+    background-color: #0f274f;
+    border-left: 6px solid #3771d6;
+    padding: 0;
+}
+
+.left-dark-border:hover {
+    background-color: #0f274f;
+    border-left: 6px solid #3771d6;
+    padding: 0;
+}
+

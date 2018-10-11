@@ -1,0 +1,16 @@
+<div>
+  <div class="chartHeader">
+      <h2>{{chartTitle}}</h2>
+      <span class="pushRight"></span>
+      <mat-form-field>
+          <mat-select placeholder="Duration">
+            <mat-option *ngFor="let duration of durations" [value]="duration.value">
+              {{duration.viewValue}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+  </div>
+  <div class="chartBody">
+    <ng-content></ng-content>
+  </div>
+</div>

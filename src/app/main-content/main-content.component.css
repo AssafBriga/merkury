@@ -1,0 +1,15 @@
+chart-manager {
+    display: flex;
+    flex: 5;
+
+}
+
+list-manager {
+    display: flex;
+    flex: 5;
+}
+
+.pageTitle {
+    flex: 1;
+    margin: 40px 0 0 20px;
+}

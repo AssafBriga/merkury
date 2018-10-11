@@ -1,0 +1,85 @@
+mat-chip {
+    max-width: 32px;
+    margin: 50px;
+}
+
+mat-nav-list {
+    border-bottom: 1px solid #e2e2e2;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top:0;
+    position: relative;
+
+}
+
+mat-list {
+    padding: 0;
+    background-color: white;
+    flex: 4;
+    flex-direction: column;
+    display: flex;
+}
+
+.list-item {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.listTitle {
+    flex: 2;
+    margin: 15px;
+    font-weight: 500;
+
+}
+
+task-list-item {
+    flex: 1;
+    display: flex;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+message-list-item{
+    flex: 1;
+    display: flex;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: white;
+    align-items: center;
+}
+
+
+activity-list-item{
+    flex: 1;
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.flex1{
+    flex:1;
+}
+
+mat-chip-list {
+   flex:1;
+   position:absolute;
+   right:10px;
+}
+
+.infoChip{
+    background-color: #5384ff;
+}
+
+.warnChip{
+    background-color: #f83c7b;
+}
+
+
+.whiteText{
+    color:white;
+}

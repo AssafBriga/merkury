@@ -1,0 +1,56 @@
+.flex1 {
+    flex: 1;
+    text-align: center;
+}
+
+.flex3 {
+    flex: 4;
+}
+
+.taskTitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.taskDeadline {
+    font-size: 10px;
+}
+
+span mat-icon {
+    color: #aaaaaa;
+}
+
+.firstCharacter {
+    background-color: #5384ff;
+    box-sizing: border-box;
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+
+}
+
+mat-list-item {
+    background-color: white;
+    padding: 3px 0;
+    display: flex;
+    flex:1;
+}
+
+.taskDeadlineIcon {
+    font-size: 11px;
+    height: 11px;
+    width: 11px;
+    margin: 2px 2px 0 0;
+}
+
+.taskDeadline {
+    font-size: 10px;
+    color: #aaaaaa;
+}
+
+
+.warnText{
+    color: #f83c7b;
+}

@@ -1,0 +1,17 @@
+<mat-list-item class="centerItems">
+    <div class="flex1">
+        <div class="firstCharacter">{{taskItem.title.charAt(0)}}</div>
+    </div>
+    <div class="flex3">
+        <div class="taskTitle">{{taskItem.title}}</div>
+        <div class="taskDeadline" [ngClass]="{warnText: delay}">
+            <mat-icon class="taskDeadlineIcon">schedule</mat-icon>
+            <span>{{taskItem.deadline}}</span>
+        </div>
+    </div>
+    <div class="flex1">
+        <span>
+            <mat-icon>more_vert</mat-icon>
+        </span>
+    </div>
+</mat-list-item>

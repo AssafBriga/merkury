@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "content": "Hey you! It's me again :-) I attached new(...)",
+        "sentFromUserId": 2,
+        "sentToUserId": 1,
+        "time": "5 minutes ago",
+        "opened": false
+    }, {
+        "id": 2,
+        "content": "Hey! I attached some new PSD files for(...)",
+        "sentFromUserId": 2,
+        "sentToUserId": 1,
+        "time": "20 hours ago",
+        "opened": false
+    }, {
+        "id": 3,
+        "content": "Good morning, you are fired!",
+        "sentFromUserId": 3,
+        "sentToUserId": 1,
+        "time": "2 days ago",
+        "opened": true
+    }, {
+        "id": 4,
+        "content": "Hello! Could You bring me coffe please?",
+        "sentFromUserId": 2,
+        "sentToUserId": 1,
+        "time": "About 2 weeks ago",
+        "opened": true
+    }
+]

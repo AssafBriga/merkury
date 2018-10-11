@@ -1,0 +1,40 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav
+    #drawer
+    class="sidenav"
+    fixedInViewport="false"
+   
+    [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'"
+    [opened]="!(isHandset$ | async)">
+    <mat-toolbar id="companyLogo" color="primary"><mat-icon class="lightBlue margin10">donut_large</mat-icon>Merkury</mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item class="dark-border-bottom white left-dark-border selected-list-item" href="#"><mat-icon class="lightBlue margin10">home</mat-icon>Home</a>
+      <a mat-list-item class="dark-border-bottom white left-dark-border" href="#"><mat-icon class="lightBlue margin10">view_stream</mat-icon>Workflow</a>
+      <a mat-list-item class="dark-border-bottom white left-dark-border" href="#"><mat-icon class="lightBlue margin10">timeline</mat-icon>Statistics</a>
+      <a mat-list-item class="dark-border-bottom white left-dark-border" href="#"><mat-icon class="lightBlue margin10">insert_invitation</mat-icon>Calander</a>
+      <a mat-list-item class="dark-border-bottom white left-dark-border" href="#"><mat-icon class="lightBlue margin10">perm_identity</mat-icon>Users</a>
+      <a mat-list-item class="dark-border-bottom white left-dark-border" href="#"><mat-icon class="lightBlue margin10">settings</mat-icon>Settings</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar id="header" color="primary">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        >
+        <mat-icon class="darkBlue" aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <mat-icon class="darkBlue">search</mat-icon>
+      <span class="pushRight"></span>
+      <button class="RoundedButton margin10" mat-flat-button >+        Add Project</button>
+      <a mat-list-item href="#"><mat-icon class=" margin10 darkBlue">mail</mat-icon></a>
+      <a mat-list-item href="#"><mat-icon class="margin10 darkBlue" matBadge="3" matBadgeColor="#4d7eff" matBadgeSize="small">notification_important</mat-icon></a>
+      <img class="margin-left10" src="https://cdn-images-1.medium.com/fit/c/100/100/0*wi-HJlhaUJrJ9Fvu.">
+      <a mat-list-item href="#"><mat-icon class="darkBlue">arrow_drop_down</mat-icon></a>
+    </mat-toolbar>
+    <ng-content></ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>
